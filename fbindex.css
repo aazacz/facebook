@@ -1,0 +1,188 @@
+.header {
+    background-color: #3b5998;
+    width: 100%;
+    height: 80px;
+    padding-bottom: 0;
+
+}
+
+.logo {
+    width: 50%;
+    float: left;
+    padding-top: 27px;
+}
+
+.logotext {
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 97px;
+}
+
+.login {
+
+    padding-top: 10px;
+    width: 50%;
+    float: left;
+}
+
+.logincredentials {
+    margin-left: 180px;
+
+
+}
+
+.logcretext {
+    font-size: 13px;
+    color: white;
+}
+
+.logcretext2 {
+    font-size: 13px;
+    color: rgb(127, 179, 199);
+}
+
+.label {
+    outline: none;
+    width: 120px;
+    height: 13px;
+}
+
+.button {
+    background-color: #4267b2;
+    font-size: 12px;
+    color: white;
+    width: 50px;
+    height: 21px;
+    border-color: #1c3a77;
+    border-width: 0.5px;
+
+}
+
+.button:hover {
+    background-color: #1c3a77;
+    cursor: pointer;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.body1 {
+
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.mainbody {
+    width: 100%;
+    height: 550px;
+    margin-top: 0px;
+    background-color: #eef2f7;
+}
+
+.body2 {
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    width: 48%;
+    height: 500px;
+    
+}
+
+.mainlogin {
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    width: 400px;
+    height: 360px;
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    float: left;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.row1 {
+    outline: none;
+    border: thin;
+    border-width: 0.05px;
+    border-color: black;
+    box-shadow: 0 0 2px #9ecaed;
+
+    border-radius: 7px;
+    width: 360px;
+    height: 50px;
+}
+
+::placeholder {
+    font-size: 17px;
+}
+
+.button2 {
+    margin-top: 20px;
+    outline: none;
+    border: thin;
+    border-width: 0.05px;
+    border-color: black;
+    box-shadow: 0 0 2px #9ecaed;
+    background-color: #166fe5;
+    border-radius: 7px;
+    width: 380px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.button2:active {
+
+    transform: translateY(3px);
+}
+
+.row3 {
+
+    width: 380px;
+    margin-top: 20px;
+    align-items: center;
+    border-bottom: 1px solid #b4b9bf;
+    display: flex;
+    text-align: center;
+}
+
+.button3 {
+    font-size: 18px;
+    font-weight: bold;
+    outline: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #42b72a;
+    border-width: 0.0;
+}
+
+.button3:active {
+    transform: translateY(3px);
+}
+
+.next {
+
+    font-size: 15px;
+    text-align: center;
+    width: 400px;
+    height: 20px;
+
+
+}
